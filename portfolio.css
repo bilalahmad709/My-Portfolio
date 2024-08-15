@@ -1,0 +1,243 @@
+body{
+    background-color: rgb(19, 19, 47);
+    color: white;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html {
+    overflow-x: hidden; 
+  }
+.nav-item .nav-link{
+    color: white;
+    font-size: 20px;
+    
+}
+.logo h2{
+    color:white;
+    font-size: 30px;
+}
+.hamburger{
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.container{
+    width: 100%;
+}
+.intro{
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.intro h1 span{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.intro h2 span{
+    color: aqua;
+    font-weight: 800;
+}
+
+.profile_div{
+    justify-content: center;
+    text-align: center;
+}
+.profile_div .profile{
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+
+.reach_me a i{
+    margin: 45px 30px;
+    color: white;
+    font-size: 40px;
+}
+.reach_me a i:hover{
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px orange;
+}
+
+
+
+/* media querry portion */
+@media  screen and (max-width:780px){
+    .profile_div{
+        order: 1;
+        width:100%
+    }
+    .profile_div img.profile{
+        height: 250px;
+        width: 200px;
+        border: 2px solid blue;
+        border-radius: 40%;
+    }
+    .intro{
+        order: 2;
+        padding-left: 30px;
+    }
+}
+
+
+/* css for the about page */
+.about-container{
+    text-align: center;
+    padding: auto;
+    
+}
+.about-container .about{
+    margin: 20px;
+    padding: 30px;
+    margin-top:30px;
+    border: 2px solid rgb(25, 25, 68);
+}
+.about-container .about:hover{
+    box-shadow: 2px 2px 20px blue;
+    font-size: 20px;
+}
+.about h2 span{
+    color: aqua;
+}
+.about-container .education{
+    margin: 20px;
+    padding: 30px;
+    margin-top:30px;
+    border: 2px solid rgb(25, 25, 68);
+}
+.education h2 span{
+    color: aqua;
+}
+.education h5 span{
+    color: aqua;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 5px;
+}
+.pagination a{
+    color: white;
+    text-decoration: none;
+    border: 3px solid lightgreen;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.pagination a:hover{
+    box-shadow: 2px 2px 10px blue;
+}
+
+/* Achievements css section */
+.achievements{
+    margin: 20px;
+    padding: 30px;
+    margin-top:30px;
+    border: 2px solid rgb(25, 25, 68);
+}
+.achievements h3{
+    margin: 5px;
+}
+.achievements h3 span{
+    color: aqua;
+}
+.achievements h3 p{
+    font-size: 15px;
+}
+
+/* css for certifications page  */
+.certificat{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.certificat span{
+    color: aqua;
+}
+.certifications{
+  margin: auto;
+  padding: 10px;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px;
+ 
+}
+.certifications .certificate{
+    width: 250px;
+    max-width: 300px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+/* media querry for .certifications */
+@media (max-width: 768px) {
+    .certifications {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .certifications {
+        grid-template-columns: 1fr;
+    }
+}
+
+.certificate {
+    width: 100%;
+    height: auto;
+}
+
+/* contact page css */
+
+.contact-container h2{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-container h2 span{
+    color: aqua;
+}
+.contacts{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 50px;
+    box-shadow: 2px 2px 20px blue;
+}
+.contact{
+    display: flex;
+   margin-right: 20px;
+}
+.contact img{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.contact img:hover{
+background-color: orangered;
+width: 40px;
+height: 40px
+}
+.contact p {
+    margin: 15px;
+    margin-top: 15px;
+}
+.contact a{
+    margin: 10px;
+    color: white;
+}
